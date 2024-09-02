@@ -54,7 +54,3 @@
 
    - Click on the **Build** button.
    - Then click on the **Launch** button.
-
----
-
-Feel free to adjust any part of this as needed!

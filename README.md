@@ -54,3 +54,20 @@
 
    - Click on the **Build** button.
    - Then click on the **Launch** button.
+
+  ### OPTIONAL
+   If u want to disconnect from the repo 
+   ```bash
+   cd your-repo-directory
+   git remote remove origin
+   ```
+   OR
+   ```bash
+   git remote -v
+   ```
+   THEN REMOVE THE .git
+   ```bash
+   rm -rm .git
+   ```
+
+   

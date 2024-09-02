@@ -1,18 +1,60 @@
-ADD  .cpp FILES IN src 
-ADD .h FILES IN include
+# Game Setup Guide
 
-ONLY WORKS ON WSL2 UBUNTU (ALSO WORKS ON UBUNTU)
+## File Structure
 
-STEPS TO SETUP
-(UBUNTU BASED DISTROS)
-sudo apt install cmake libsdl2-dev libsdl2-image-dev
-git clone https://github.com/UchihaSuscat/SDL2CMake-Template.git
-cd SDL2CMake-Template
-mkdir build
-cmake ..
-make
-./main
+- **Source Files:** Place your `.cpp` files in the `src` directory.
+- **Header Files:** Place your `.h` files in the `include` directory.
 
-if using vc Code 
-install CMake and CMake Tools extensions
-click build, and then the launch button 
+## Compatibility
+
+- **WSL2 Ubuntu**
+- **Ubuntu-based Distros**
+
+## Setup Instructions
+
+### For Ubuntu-based Distros
+
+1. **Install Dependencies:**
+
+   ```bash
+   sudo apt update
+   sudo apt install cmake libsdl2-dev libsdl2-image-dev
+   ```
+
+2. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/UchihaSuscat/SDL2CMake-Template.git
+   ```
+
+3. **Build the Project:**
+
+   ```bash
+   cd SDL2CMake-Template
+   mkdir build
+   cd build
+   cmake ..
+   make
+   ```
+
+4. **Run the Application:**
+
+   ```bash
+   ./main
+   ```
+
+### If Using Visual Studio Code
+
+1. **Install Extensions:**
+
+   - CMake
+   - CMake Tools
+
+2. **Build and Launch:**
+
+   - Click on the **Build** button.
+   - Then click on the **Launch** button.
+
+---
+
+Feel free to adjust any part of this as needed!

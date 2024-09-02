@@ -63,6 +63,7 @@
    ```
    OR
    ```bash
+   cd your-repo-directory
    git remote -v
    ```
    THEN REMOVE THE .git
